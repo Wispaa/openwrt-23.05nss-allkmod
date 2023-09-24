@@ -1,0 +1,32 @@
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20230523, libubus20220615
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1695521701
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8551
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9288
+SHA256sum: aeacde3c71e251277afd3d8294afd204b1c618c044ef2c34c0b80e7fd0eab1b8
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: sqm-scripts
+Version: 1.6.0-1
+Depends: libc, tc, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt
+Source: feeds/packages/net/sqm-scripts
+SourceName: sqm-scripts
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1695521701
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 18506
+Filename: sqm-scripts_1.6.0-1_all.ipk
+Size: 19388
+SHA256sum: bdd6f5dd3388d05e4b52a788bf36a55fac294e6e3efd87c2d2ef6079fde17dfd
+Description:  A set of scripts that does simple SQM configuration.
+
