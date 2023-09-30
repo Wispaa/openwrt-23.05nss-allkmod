@@ -7,7 +7,9 @@ ipq806x OpenWrt 23.05 build with support for NSS cores and all kmod.
 * `cp diffconfig .config`
 * `make defconfig`
 * `make V=s -jx` (where x is # of available virtual cores + 1)
-
+* `key copy /etc/opkg/key`
+* `/etc/opkg/distfeeds.conf => src/gz openwrt_core https://raw.githubusercontent.com/Wispaa/../...PATH REPOSITORY../.../targets/ipq806x/generic/packages`
+* `comit origin src/gz openwrt_core and nss and sqm script`
 ## OpenWrt
 
 ![OpenWrt logo](include/logo.png)
